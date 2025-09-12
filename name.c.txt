@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+
+
+
+char name[100];
+
+char name2[100];
+
+
+
+printf("Enter Your Name\n");     //users can enter their name//
+
+scanf("%s",&name);               //picks the input (name) gven by the user//
+
+printf("Enter Your Title\n");   //users can enter their title//
+
+scanf("%s",&name2);       //picks the input (title) given by the user//
+
+printf("Your Name Is %s %s\n",name,name2);  //display the name and title of the user
+//
+
+return 0;
+
+}
